@@ -1,0 +1,32 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+}
+header {
+}
+h1 {
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #69696a;
+}
+.link {
+  color: #69696a;
+}
+.button {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  width: 95%;
+  margin: 0 auto;
+}
+p {
+  border-left: 3px #69696a solid;
+  padding-left: 6px;
+}
