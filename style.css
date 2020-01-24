@@ -35,3 +35,66 @@ p {
   border-left: 3px #69696a solid;
   padding-left: 6px;
 }
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  li {
+    display: flex;
+    margin: 5px;
+  }
+  main {
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+  }
+  section {
+    flex: 0.5;
+  }
+  .parent {
+    flex: 0.5;
+    position: relative;
+  }
+  .small {
+    height: 120px;
+    width: 120px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 30px;
+  }
+  .medium {
+    height: 160px;
+    width: 160px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 110px;
+  }
+  .large {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top: 0;
+  }
+  .last_button {
+    position: fixed;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+  }
+}
